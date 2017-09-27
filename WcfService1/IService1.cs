@@ -19,6 +19,23 @@ namespace WcfService1
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        string AddStudent(string student);
+
+        [OperationContract]
+        string FindStudent(string student);
+
+        [OperationContract]
+        string RemoveStudent(string student);
+
+        [OperationContract]
+        string EditStudent(string student);
+
+        [OperationContract]
+        string GetAllStudents(string student);
+
+
+
         // TODO: Add your service operations here
     }
 
